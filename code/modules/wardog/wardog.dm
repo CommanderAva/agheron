@@ -11,7 +11,7 @@ proc/send_to_bot(list/params, useapikey = 1)
 	world.Export("[config.bot_url]/api?[list2params(params)]")
 	to_world_log("[config.bot_url]/api?[list2params(params)]")
 
-
+/*
 /datum/controller/gameticker/declare_completion()
 	. = ..()
 	var/players = 0
@@ -31,6 +31,8 @@ proc/send_to_bot(list/params, useapikey = 1)
 	"bloodshed" = GLOB.total_deaths,
 	"time" = roundduration2text()
 	))
+
+*/
 
 /*
 /hook/startup/proc/roundstartping()

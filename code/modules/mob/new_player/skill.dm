@@ -3,14 +3,15 @@ var/const/SKILL_BASIC = 1
 var/const/SKILL_ADEPT = 2
 var/const/SKILL_EXPERT = 3
 
+var/global/list/SKILLS = null
+
+
 // Specific skill typepaths that won't show up on the skills panel.
 // This is used to hide the category subtypes, without having to use special variable.
 var/list/hidden_skill_types = list(\
 	/datum/skill,\
 	/datum/skill/secondary,\
-	/datum/skill/security,\
 	/datum/skill/engineering,\
-	/datum/skill/research,\
 	/datum/skill/medical\
 	)
 
@@ -28,6 +29,12 @@ proc/setup_skills()
 
 mob/living/carbon/human/proc/GetSkillClass(points)
 	return CalculateSkillClass(points, age)
+
+mob/living/carbon/human/proc/CalculateSkillClass(var/points, var/age)
+	var/calc
+	calc = age/7
+	points = abs(calc)
+	return points
 
 proc/show_skill_window(var/mob/user, var/mob/living/carbon/human/M)
 	if(!istype(M)) return
@@ -70,7 +77,7 @@ mob/living/carbon/human/verb/show_skills()
 
 	show_skill_window(src, src)
 
-
+/*
 /datum/skill
 	var/ID = "none"					// ID of this skill.
 	var/name = "None" 				// Name of the skill. This is what the player sees.
@@ -101,7 +108,7 @@ mob/living/carbon/human/verb/show_skills()
 /datum/skill/medical
 	field = "Medical"
 
-var/global/list/SKILLS = null
+
 
 // ONLY SKILL DEFINITIONS BELOW THIS LINE
 // Category: Secondary
@@ -249,7 +256,7 @@ var/global/list/SKILLS = null
 	desc_amateur = "You use and repair high-tech equipment in the course of your daily work. You can fix simple problems, and you know how to use a circuit printer or autolathe. You can build simple robots such as cleanbots and medibots. If you have the relevant medical or electronic knowledge, you can repair a prosthesis or artificial organ; if not, these devices are beyond you."
 	desc_trained = "You can build or repair an exosuit or cyborg chassis, use a protolathe and destructive analyzer, and build prosthetic limbs. You can safely transfer an MMI or posibrain into a cyborg chassis."
 	desc_professional = "You are an inventor, researcher, or anomalist. You can design, build, and modify equipment that most people don't even know exists. You are at home in the lab and the workshop and you've never met a gadget you couldn't take apart, put back together, and replicate."
-	
+
 /datum/skill/research/computer
 	ID = "computer"
 	name = "Information Technology"
@@ -307,3 +314,5 @@ var/global/list/SKILLS = null
 	desc_trained = "You work as a chemist, or else you are a doctor with training in chemistry. If you are a research chemist, you can create most useful chemicals; if you are a pharmacist, you can make most medications. At this stage, you're working mostly by-the-book. You can weaponize your chemicals by making grenades, smoke bombs, and similar devices."
 	desc_professional = "You specialized in chemistry or pharmaceuticals; you are either a medical researcher or professional chemist. You can create custom mixes and make even the trickiest of medications easily. You understand how your pharmaceuticals interact with the bodies of your patients. You are probably the originator of at least one new chemical innovation."
 	cost_multiplier = 1.2
+
+	*/

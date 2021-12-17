@@ -408,7 +408,7 @@
 	plane = ABOVE_OBJ_PLANE
 	layer = BASE_MOB_LAYER
 	atom_flags = ATOM_FLAG_CLIMBABLE
-
+/*
 /obj/structure/anti_tank/can_climb(var/mob/living/user, post_climb_check=0)
 	if(!iswarfare())
 		return TRUE
@@ -427,7 +427,7 @@
 	if(!SSwarfare.battle_time)
 		return FALSE
 	return TRUE
-
+*/
 
 /obj/item/projectile/bullet/pellet/fragment/landmine
 	damage = 100
@@ -582,7 +582,7 @@
 				to_chat(H, "I'm already arming the device!")
 
 /obj/structure/destruction_computer/proc/kaboom()
-	SSwarfare.end_warfare(faction)//really simple I know.
+//	SSwarfare.end_warfare(faction)//really simple I know.
 
 /obj/structure/destruction_computer/red
 	faction = RED_TEAM

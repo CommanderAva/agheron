@@ -22,6 +22,11 @@
 	var/xp = 0//What the level is, used for leveling up the skill to the next rank.
 	var/level_up_req = 100
 	var/category = "General Skills"
+	var/secondary = FALSE
+
+/datum/skill/secondary
+	name = "Secondary"
+	secondary = TRUE
 
 //Stat defines
 /datum/stat

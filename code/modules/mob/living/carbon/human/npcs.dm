@@ -343,7 +343,7 @@
 	return FALSE
 
 //Hostile NPCs.
-
+/*
 //SKINLESS
 /datum/species/human/skinless/handle_npc(var/mob/living/carbon/human/H)//DON'T SPAWN TOO MANY OF THESE PLEASE!
 	H.process()
@@ -368,6 +368,7 @@
 	put_in_hands(new weapon)//Give them a weapon.
 	combat_mode = 1//Put them in combat mode.
 	STAT_LEVEL(dex) = 1
+*/
 
 /datum/species/human/lackey/handle_npc(var/mob/living/carbon/human/H)
 	H.process()

@@ -98,7 +98,7 @@
 
 		handle_diagonostic_signs()
 
-		handle_warfare_life()
+//		handle_warfare_life()
 
 		handle_gas_mask_sound()//Was in breathing, but people don't breathe anymore.
 
@@ -1247,10 +1247,10 @@
 	restore_blood()
 	full_prosthetic = null
 	shock_stage = 0
-	if(SSjobs.GetJobByTitle(job)?.is_blue_team && !(src in SSwarfare.blue.team))
-		SSwarfare.blue.team.Add(src)
-	if(SSjobs.GetJobByTitle(job)?.is_red_team && !(src in SSwarfare.red.team))
-		SSwarfare.red.team.Add(src)
+//	if(SSjobs.GetJobByTitle(job)?.is_blue_team && !(src in SSwarfare.blue.team))
+//		SSwarfare.blue.team.Add(src)
+//	if(SSjobs.GetJobByTitle(job)?.is_red_team && !(src in SSwarfare.red.team))
+//		SSwarfare.red.team.Add(src)
 	..()
 
 /mob/living/carbon/human/reset_view(atom/A)

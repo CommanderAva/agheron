@@ -70,7 +70,7 @@
 
 	if(isChild())
 		msg += "<b>[T.He] is but a child!</b>\n"
-
+/*
 	if(ishuman(user))
 		var/mob/living/carbon/human/H = user
 		if(H.warfare_faction != src.warfare_faction)
@@ -83,7 +83,7 @@
 			if(H.warfare_faction == src.warfare_faction)
 				if(istype(H.squad, src.squad))
 					msg += "<b><big>[T.He] is in my squad!</big></b>\n"
-
+*/
 
 
 	if((!skipface || wear_id) && src != user)

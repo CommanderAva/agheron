@@ -14,6 +14,8 @@
 #define INITIALIZE_HINT_LATELOAD 1  //Call LateInitialize
 #define INITIALIZE_HINT_QDEL     2  //Call qdel on the atom
 
+#define INIT_ORDER_CRAFT -175
+
 //type and all subtypes should always call Initialize in New()
 #define INITIALIZE_IMMEDIATE(X) ##X/New(loc, ...){\
 	..();\

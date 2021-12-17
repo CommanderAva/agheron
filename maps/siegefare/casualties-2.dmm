@@ -1,69 +1,51 @@
+"aa" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/open,/area/space)
+"ab" = (/turf/simulated/open,/area/space)
+"ac" = (/obj/structure/torchwall{dir = 8},/turf/simulated/open,/area/space)
+"ad" = (/turf/simulated/floor/tiled/ramp{dir = 1},/area/space)
+"ae" = (/obj/structure/sign/kitchen,/turf/simulated/mineral,/area/space)
 "af" = (/obj/effect/landmark/map_data{height = 2},/turf/simulated/mineral,/area/space)
-"ap" = (/obj/structure/banner/red,/turf/simulated/wall/concrete/strong,/area/warfare)
-"bY" = (/obj/structure/torchwall{dir = 8},/turf/simulated/floor/dirty/tough,/area/warfare)
-"cu" = (/turf/simulated/floor/tiled/ramp{dir = 4},/area/warfare)
-"cx" = (/turf/simulated/floor/tiled/ramp{dir = 8},/area/warfare)
-"fq" = (/obj/structure/dirt_wall,/obj/structure/dirt_wall,/turf/simulated/floor/dirty/indestructable,/area/warfare/homebase/blue/outside)
-"gN" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"kh" = (/turf/simulated/floor/holofloor/tiled,/area/warfare)
-"kA" = (/obj/structure/torchwall{dir = 8},/turf/simulated/floor/dirty/tough,/area/warfare/battlefield/trench_section)
-"kQ" = (/obj/structure/barbwire,/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"lm" = (/turf/simulated/open,/area/warfare)
-"lw" = (/turf/simulated/floor/dirty/indestructable,/area/warfare/homebase/blue/outside)
-"mQ" = (/obj/structure/torchwall{dir = 8},/turf/simulated/floor/holofloor/tiled,/area/warfare/homebase/blue/outside)
-"pt" = (/obj/structure/sign/kitchen,/turf/simulated/mineral,/area/warfare/homebase/blue/outside)
-"pu" = (/obj/structure/defensive_barrier,/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"px" = (/obj/structure/sign/redcross,/turf/simulated/mineral,/area/warfare/homebase/blue/outside)
-"qg" = (/turf/simulated/floor/holofloor/tiled,/area/warfare/homebase/blue/outside)
-"qG" = (/obj/structure/sign/neon/armory,/turf/simulated/mineral,/area/warfare/homebase/blue/outside)
-"qN" = (/turf/simulated/mineral,/area/warfare)
-"rb" = (/obj/structure/sign/warning/detailed,/turf/simulated/wall/concrete/strong,/area/warfare)
-"rq" = (/obj/structure/destruction_computer/blue,/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"rZ" = (/turf/simulated/floor/tiled/ramp{dir = 1},/area/warfare/homebase/blue/outside)
-"ta" = (/obj/structure/dirt_wall,/obj/structure/dirt_wall,/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"ue" = (/obj/structure/banner/blue,/turf/simulated/wall/concrete/strong,/area/warfare)
-"va" = (/turf/simulated/mineral,/area/warfare/homebase/blue/outside)
-"vA" = (/obj/structure/defensive_barrier{dir = 8},/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"wg" = (/obj/structure/defensive_barrier{dir = 4},/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"ww" = (/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"xc" = (/obj/structure/sign/kitchen,/turf/simulated/wall/concrete/strong,/area/warfare)
-"xp" = (/turf/simulated/floor/dirty/tough,/area/warfare/battlefield/no_mans_land)
-"xS" = (/obj/structure/dirt_wall,/turf/simulated/floor/dirty/indestructable,/area/warfare/homebase/blue/outside)
-"xY" = (/turf/simulated/floor/tiled/ramp,/area/warfare)
-"yq" = (/obj/structure/dirt_wall,/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"yC" = (/obj/structure/sign/warning,/turf/simulated/mineral,/area/warfare/battlefield/no_mans_land)
-"zX" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/dirty/tough,/area/warfare/battlefield/trench_section)
-"Aj" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/trench,/area/warfare)
-"Am" = (/obj/structure/bed/chair{dir = 4; icon_state = "chair_preview"},/turf/simulated/floor/trench,/area/warfare)
-"As" = (/obj/structure/poster/red,/turf/simulated/wall/concrete/strong,/area/warfare)
-"Aw" = (/turf/simulated/floor/trench,/area/warfare/homebase/blue/outside)
-"AN" = (/obj/structure/barbwire,/obj/structure/barbwire,/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"BC" = (/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"Cm" = (/turf/simulated/floor/dirty/tough,/area/warfare/siegewall)
-"Eu" = (/turf/simulated/floor/dirty/indestructable,/area/warfare/battlefield/no_mans_land)
+"ag" = (/obj/structure/sign/neon/armory,/turf/simulated/mineral,/area/space)
+"ah" = (/obj/structure/sign/redcross,/turf/simulated/mineral,/area/space)
+"ai" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/holofloor/tiled,/area/space)
+"aj" = (/turf/simulated/floor/holofloor/tiled,/area/space)
+"ak" = (/obj/structure/torchwall{dir = 8},/turf/simulated/floor/holofloor/tiled,/area/space)
+"al" = (/turf/simulated/floor/dirty/indestructable,/area/space)
+"am" = (/turf/simulated/floor/trench,/area/space)
+"an" = (/turf/simulated/floor/trenches,/area/space)
+"ao" = (/obj/structure/dirt_wall,/turf/simulated/floor/dirty/indestructable,/area/space)
+"ap" = (/obj/structure/barbwire,/turf/simulated/floor/dirty/indestructable,/area/space)
+"aq" = (/obj/structure/defensive_barrier,/turf/simulated/floor/dirty/indestructable,/area/space)
+"ar" = (/obj/structure/dirt_wall,/obj/structure/dirt_wall,/turf/simulated/floor/dirty/indestructable,/area/space)
+"as" = (/obj/structure/defensive_barrier,/turf/simulated/floor/holofloor/tiled,/area/space)
+"at" = (/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/trench,/area/space)
+"au" = (/obj/structure/poster/blue,/turf/simulated/wall/concrete/strong,/area/space)
+"av" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/trench,/area/space)
+"aw" = (/obj/structure/banner/blue,/turf/simulated/wall/concrete/strong,/area/space)
+"ax" = (/obj/structure/barbwire,/obj/structure/barbwire,/turf/simulated/floor/dirty/indestructable,/area/space)
+"ay" = (/obj/structure/sign/warning/detailed,/turf/simulated/wall/concrete/strong,/area/space)
+"az" = (/obj/structure/destruction_computer/blue,/turf/simulated/floor/dirty/indestructable,/area/space)
+"aA" = (/obj/structure/bed,/turf/simulated/floor/trench,/area/space)
+"aB" = (/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/dirty/indestructable,/area/space)
+"aC" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/dirty/indestructable,/area/space)
+"aD" = (/obj/structure/bed/chair{dir = 4; icon_state = "chair_preview"},/turf/simulated/floor/trench,/area/space)
+"aE" = (/obj/structure/bed/chair{dir = 8; icon_state = "chair_preview"},/turf/simulated/floor/trench,/area/space)
+"aF" = (/obj/structure/defensive_barrier{dir = 8},/turf/simulated/floor/dirty/indestructable,/area/space)
+"aG" = (/obj/structure/defensive_barrier{dir = 4},/turf/simulated/floor/dirty/indestructable,/area/space)
+"aH" = (/obj/structure/landmine,/turf/simulated/floor/dirty/indestructable,/area/space)
+"aI" = (/turf/simulated/floor/dirty/tough,/area/space)
+"aJ" = (/obj/structure/sign/warning,/turf/simulated/mineral,/area/space)
+"aK" = (/turf/simulated/floor/tiled/ramp,/area/space)
+"aL" = (/turf/simulated/floor/tiled,/area/space)
+"aM" = (/obj/structure/poster/red,/turf/simulated/wall/concrete/strong,/area/space)
+"aN" = (/obj/structure/banner/red,/turf/simulated/wall/concrete/strong,/area/space)
+"aO" = (/obj/structure/torchwall{dir = 8},/turf/simulated/floor/dirty/tough,/area/space)
+"aP" = (/obj/structure/sign/kitchen,/turf/simulated/wall/concrete/strong,/area/space)
+"aQ" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/dirty/tough,/area/space)
+"aR" = (/obj/structure/sign/redcross,/turf/simulated/wall/concrete/strong,/area/space)
+"aS" = (/turf/simulated/floor/tiled/ramp{dir = 4},/area/space)
+"aT" = (/turf/simulated/floor/tiled/ramp{dir = 8},/area/space)
+"aU" = (/obj/structure/sign/neon/armory,/turf/simulated/wall/concrete/strong,/area/space)
 "Ha" = (/turf/simulated/mineral,/area/space)
-"HB" = (/obj/structure/poster/blue,/turf/simulated/wall/concrete/strong,/area/warfare)
-"HD" = (/turf/simulated/floor/trenches,/area/warfare/homebase/blue/outside)
-"HO" = (/obj/structure/defensive_barrier,/turf/simulated/floor/holofloor/tiled,/area/warfare/homebase/blue/outside)
-"IR" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/dirty/tough,/area/warfare)
-"Jt" = (/obj/structure/defensive_barrier,/turf/simulated/floor/holofloor/tiled,/area/warfare)
-"KG" = (/obj/structure/bed,/turf/simulated/floor/trench,/area/warfare)
-"KX" = (/turf/simulated/floor/tiled,/area/warfare)
-"NM" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/holofloor/tiled,/area/warfare/homebase/blue/outside)
-"NN" = (/turf/simulated/floor/trenches,/area/warfare)
-"Od" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/open,/area/warfare/homebase/blue/outside)
-"PJ" = (/obj/structure/barbwire,/turf/simulated/floor/dirty/indestructable,/area/warfare/homebase/blue/outside)
-"Rf" = (/obj/structure/bed/chair{dir = 8; icon_state = "chair_preview"},/turf/simulated/floor/trench,/area/warfare)
-"Ss" = (/obj/structure/sign/redcross,/turf/simulated/wall/concrete/strong,/area/warfare)
-"UK" = (/obj/structure/torchwall{dir = 8},/turf/simulated/open,/area/warfare/homebase/blue/outside)
-"Vc" = (/obj/structure/defensive_barrier,/turf/simulated/floor/dirty/indestructable,/area/warfare/homebase/blue/outside)
-"Vx" = (/obj/structure/landmine,/turf/simulated/floor/dirty/indestructable,/area/warfare)
-"Xd" = (/turf/simulated/floor/dirty/tough,/area/warfare)
-"XQ" = (/turf/simulated/open,/area/warfare/homebase/blue/outside)
-"Yo" = (/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/trench,/area/warfare)
-"YX" = (/obj/structure/sign/neon/armory,/turf/simulated/wall/concrete/strong,/area/warfare)
-"Zc" = (/turf/simulated/floor/trench,/area/warfare)
-"ZV" = (/turf/simulated/floor/dirty/tough,/area/warfare/battlefield/trench_section)
 
 (1,1,1) = {"
 HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
@@ -102,73 +84,73 @@ HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
 HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
 HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
 HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
-HaHaHaHaHaHaHavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavaHaHaHaHaHaHaHa
-HaHaHaHaHaHaHavaOdXQXQXQUKvavavavavavavavaOdUKvavaOdXQUKvavaOdUKvavavavavavavavaOdXQXQXQUKvaHaHaHaHaHaHaHa
-HaHaHaHavavavavarZrZrZrZrZvavavavavavavaptrZrZptqGrZrZrZqGpxrZrZpxvavavavavavavarZrZrZrZrZvavavavaHaHaHaHa
-HaHaHaHavavavavaNMqgqgqgmQvavavalwlwlwAwAwHDHDAwAwHDHDHDAwAwHDHDAwAwlwlwlwvavavaNMqgqgqgmQvavavavaHaHaHaHa
-HaHaHaHavavavavalwlwlwlwlwvavavalwlwAwAwAwAwAwAwAwAwAwAwAwAwAwAwAwAwAwlwlwlwvalwlwlwlwlwlwvavavavaHaHaHaHa
-HaHaHaHavavavalwlwlwlwlwlwlwvalwlwlwAwAwAwAwAwAwAwAwAwAwAwAwAwAwAwAwAwlwlwlwlwlwlwlwlwlwlwlwvavavaHaHaHaHa
-HaHaHaHavavalwlwlwlwlwlwlwlwlwlwlwlwAwAwAwxSxSxSqgqgqgqgqgxSxSxSAwAwAwlwlwlwlwlwlwlwlwlwlwlwvavavaHaHaHaHa
-HaHaHaHavavalwlwlwlwlwlwlwlwlwlwlwAwAwAwxSxSPJPJVcVcVcVcVcPJPJxSxSAwAwAwlwlwlwlwlwlwlwlwlwlwlwvavaHaHaHaHa
-HaHaHaHavalwlwlwlwlwlwlwlwlwlwlwAwAwAwAwxSkQkQwwwwwwwwwwwwwwkQkQfqAwAwAwAwlwlwlwlwlwlwlwlwlwlwlwvaHaHaHaHa
-HaHaHaHavalwlwlwlwlwlwlwlwlwlwAwAwAwAwHOyqkQwwZcZcZcZcZcZcZcwwkQyqHOAwAwAwAwlwlwlwlwlwlwlwlwlwlwvaHaHaHaHa
-HaHaHaHavaAwAwAwqgAwAwAwqgAwAwAwAwAwxSlwkQkQZcZcZcYoHBAjZcZcZckQkQlwxSAwAwAwAwAwqgAwAwAwqgAwAwAwvaHaHaHaHa
-HaHaHaHavaAwAwAwHOAwAwAwHOAwAwAwAwHOxSwwkQZcZcZckQZcwwZckQZcZcZckQwwxSHOAwAwAwAwHOAwAwAwHOAwAwAwvaHaHaHaHa
-HaHaHaHavaxSxSxSlwxSxSxSlwxSxSxSxSlwkQwwZcZcZckQyqYoueAjtakQZcZcZcwwkQlwxSxSxSxSlwxSxSxSlwxSxSxSvaHaHaHaHa
-HaHaHaHaqNkQkQkQwwkQkQkQwwkQkQkQkQwwkQwwZcANkQyqrbZcrqZcrbyqkQANZcwwkQwwkQkQkQkQwwkQkQkQwwkQkQkQqNHaHaHaHa
-HaHaHaHaqNZcZcZckhZcZcZckhZcZcZcZcwwZcwwZckQZcZckhZcZcZckhZcZckQZcwwZcwwZcZcZcZckhZcZcZckhZcZcZcqNHaHaHaHa
-HaHaHaHaqNZcyqyqJtZcZcZcJtZcZcZcZcpuZcpuZcANANZcyqrbZcrbyqZckQkQZcpuZcpuZcZcZcZcJtZcZcZcJtyqyqZcqNHaHaHaHa
-HaHaHaHaqNZckQyqwwyqZcyqwwyqZcyqyqwwyqwwZcZcANkQkQkQkQkQkQkQANZcZcwwyqwwyqyqZcyqwwyqZcyqwwyqkQZcqNHaHaHaHa
-HaHaHaHaqNNNkQkQwwkQNNkQwwkQNNkQkQwwwwwwyqZcZcZckhZcZcZckhZcZcZcyqwwwwwwkQkQNNkQwwkQNNkQwwkQkQNNqNHaHaHaHa
-HaHaHaHaqNKGZcKGwwKGZcKGwwKGZcKGyqBCHBgNyqyqZcZcJtZcZcZcJtZcZcyqyqBCHBgNyqKGZcKGwwKGZcKGwwKGZcKGqNHaHaHaHa
-HaHaHaHaqNyqyqyqwwyqyqyqwwyqyqyqyqwwwwwwwwyqyqyqyqyqyqyqyqyqyqyqwwwwwwwwyqyqyqyqwwyqyqyqwwyqyqyqqNHaHaHaHa
-HaHaHaHaqNkQkQkQpukQkQkQpukQkQkQkQpupupukQkQkQkQkQkQkQkQkQkQkQkQkQpupupukQkQkQkQpukQkQkQpukQkQkQqNHaHaHaHa
-HaHaHaHaqNZcZcZcZcZcZcZcZcZcZcZcZcZckhZcZcZcZcZcZcZcZcZcZcZcZcZcZcZckhZcZcZcZcZcZcZcZcZcZcZcZcZcqNHaHaHaHa
-HaHaHaHaqNZcZcZcZcZcZcZcZcZcZcZcZcZckhZcZcZcZcZcZcZcZcZcZcZcZcZcZcZckhZcZcZcZcZcZcZcZcZcZcZcZcZcqNHaHaHaHa
-HaHaHaHaqNAmkhRfZcYoHBAjZcAmkhRfZcvAwwwgZcZcAmkhRfYoHBAjAmkhRfZcZcvAwwwgZcAmkhRfZcYoHBAjZcAmkhRfqNHaHaHaHa
-HaHaHaHaqNAmJtRfZcZcJtZcZcAmJtRfZcvAwwwgZcZcAmJtRfZcJtZcAmJtRfZcZcvAwwwgZcAmJtRfZcZcJtZcZcAmJtRfqNHaHaHaHa
-HaHaHaHaqNyqyqyqyqyqyqyqyqyqyqyqyqpuwwpuyqyqyqyqyqyqyqyqyqyqyqyqyqpuwwpuyqyqyqyqyqyqyqyqyqyqyqyqqNHaHaHaHa
-HaHaHaHaqNkQkQkQkQkQkQkQkQkQkQkQZcyqpuyqZckQkQkQkQkQkQkQkQkQkQkQZcyqpuyqZckQkQkQkQkQkQkQkQkQkQkQqNHaHaHaHa
-HaHaHaHaqNwwVxwwVxwwVxwwVxwwVxkQkQZcyqZckQkQVxwwVxwwVxwwVxwwVxkQkQZcyqZckQkQVxwwVxwwVxwwVxwwVxwwqNHaHaHaHa
-HaHaHaHaqNVxwwVxwwVxwwVxwwVxwwVxkQkQkQkQkQVxwwVxwwVxwwVxwwVxwwVxkQkQkQkQkQVxwwVxwwVxwwVxwwVxwwVxqNHaHaHaHa
-HaHaHaHaqNwwwwwwwwwwwwwwwwwwwwwwVxVxVxVxVxwwwwwwwwwwwwwwwwwwwwwwVxVxVxVxVxwwwwwwwwwwwwwwwwwwwwwwqNHaHaHaHa
-HaHaHaHaHaEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuHaHaHaHaHa
-HaHaHaHaHaEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuHaHaHaHaHa
-HaHaHaHaHaEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuHaHaHaHaHa
-HaHaHaHaHaEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuHaHaHaHaHa
-HaHaHaHaHaEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuHaHaHaHaHa
-HaHaHaHaHaEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuHaHaHaHaHa
-HaHaHaHaHaEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuHaHaHaHaHa
-HaHaHaHaHaEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuEuHaHaHaHaHa
-HaHaHaHaHaxpxpxpxpxpyCxpxpxpxpxpxpxpyCxpxpxpxpxpxpxpyCxpxpxpxpxpxpxpyCxpxpxpxpxpxpxpyCxpxpxpxpxpHaHaHaHaHa
-HaHaHaHaHaxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpHaHaHaHaHa
-HaHaHaHaHaxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpHaHaHaHaHa
-HaHaHaHaHaxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpHaHaHaHaHa
-HaHaHaHaHaxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpHaHaHaHaHa
-HaHaHaHaHaxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpHaHaHaHaHa
-HaHaHaHaHaxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpxpHaHaHaHaHa
-HaHaHaHaHaCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmCmHaHaHaHaHa
-HaHaHaHaqNxYxYxYxYxYxYxYxYxYxYxYxYxYXdxYxYxYxYxYxYxYxYxYxYxYxYxYxYxYXdxYxYxYxYxYxYxYxYxYxYxYxYxYqNHaHaHaHa
-HaHaHaHaqNZcZcZcZcZcZcZcZcZcZcZcZcZcKXZcZcZcZcZcZcZcZcZcZcZcZcZcZcZcKXZcZcZcZcZcZcZcZcZcZcZcZcZcqNHaHaHaHa
-HaHaHaHaqNZcZcYoAsAjZcZcZcYoAsAjZcZcKXZcZcYoAsAjZcYoapAjZcYoAsAjZcZcKXZcZcYoAsAjZcZcZcYoAsAjZcZcqNHaHaHaHa
-HaHaHaHaqNZcZcAmKXRfZcZcZcAmKXRfZcZcKXZcZcAmKXRfZcAmKXRfZcAmKXRfZcZcKXZcZcAmKXRfZcZcZcAmKXRfZcZcqNHaHaHaHa
-HaHaHaHaqNZcZcAmKXRfZcZcZcAmKXRfZcZcKXZcZcAmKXRfZcAmKXRfZcAmKXRfZcZcKXZcZcAmKXRfZcZcZcAmKXRfZcZcqNHaHaHaHa
-HaHaHaHaqNZcZcZcZcZcZcZcZcZcZcZcZcZcKXZcZcZcZcZcZcZcZcZcZcZcZcZcZcZcKXZcZcZcZcZcZcZcZcZcZcZcZcZcqNHaHaHaHa
-HaHaHaHaqNXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdXdZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVXdbYxcIRXdXdZVZVZVZVZVZVZVZVZVZVXdXdXdZVZVZVZVZVZVZVZVZVZVXdXdbYSsIRXdZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVXdKXculmlmXdZVZVZVZVZVZVZVZVZVZVXdXdXdZVZVZVZVZVZVZVZVZVZVXdlmlmcxKXXdZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVXdKXculmlmXdZVZVZVZVZVZVZVZVZVZVXdXdXdZVZVZVZVZVZVZVZVZVZVXdlmlmcxKXXdZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVXdXdXdXdXdXdZVZVZVZVZVZVZVZVZVZVXdXdXdZVZVZVZVZVZVZVZVZVZVXdXdXdXdXdXdZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVXdXdXdZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVXdXdXdXdXdZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVkAYXIRXdbYYXzXZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVXdKXKXKXXdZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVXdxYxYxYXdZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVXdlmlmlmXdZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVXdlmlmlmXdZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVXdXdXdXdXdZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVZVqNHaHaHaHa
-HaHaHaHaqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNqNHaHaHaHa
+HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
+HaHaHaHaHaHaHaHaaaabababacHaHaHaHaHaHaHaHaaaacHaHaaaabacHaHaaaacHaHaHaHaHaHaHaHaaaabababacHaHaHaHaHaHaHaHa
+HaHaHaHaHaHaHaHaadadadadadHaHaHaHaHaHaHaaeadadaeagadadadagahadadahHaHaHaHaHaHaHaadadadadadHaHaHaHaHaHaHaHa
+HaHaHaHaHaHaHaHaaiajajajakHaHaHaalalalamamananamamanananamamananamamalalalHaHaHaaiajajajakHaHaHaHaHaHaHaHa
+HaHaHaHaHaHaHaHaalalalalalHaHaHaalalamamamamamamamamamamamamamamamamamalalalHaalalalalalalHaHaHaHaHaHaHaHa
+HaHaHaHaHaHaHaalalalalalalalHaalalalamamamamamamamamamamamamamamamamamalalalalalalalalalalalHaHaHaHaHaHaHa
+HaHaHaHaHaHaalalalalalalalalalalalalamamamaoaoaoajajajajajaoaoaoamamamalalalalalalalalalalalHaHaHaHaHaHaHa
+HaHaHaHaHaHaalalalalalalalalalalalamamamaoaoapapaqaqaqaqaqapapaoaoamamamalalalalalalalalalalalHaHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalamamamamaoapapalalalalalalalapaparamamamamalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalamamamamasaoapalamamamamamamamalapaoasamamamamalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaamamamajamamamajamamamamamaoalapapamamamatauavamamamapapalaoamamamamamajamamamajamamamHaHaHaHaHa
+HaHaHaHaHaamamamasamamamasamamamamasaoalapamamamapamalamapamamamapalaoasamamamamasamamamasamamamHaHaHaHaHa
+HaHaHaHaHaaoaoaoalaoaoaoalaoaoaoaoalapalamamamapaoatawavarapamamamalapalaoaoaoaoalaoaoaoalaoaoaoHaHaHaHaHa
+HaHaHaHaHaapapapalapapapalapapapapalapalamaxapaoayamazamayaoapaxamalapalapapapapalapapapalapapapHaHaHaHaHa
+HaHaHaHaHaamamamajamamamajamamamamalamalamapamamajamamamajamamapamalamalamamamamajamamamajamamamHaHaHaHaHa
+HaHaHaHaHaamaoaoasamamamasamamamamaqamaqamaxaxamaoayamayaoamapapamaqamaqamamamamasamamamasaoaoamHaHaHaHaHa
+HaHaHaHaHaamapaoalaoamaoalaoamaoaoalaoalamamaxapapapapapapapaxamamalaoalaoaoamaoalaoamaoalaoapamHaHaHaHaHa
+HaHaHaHaHaanapapalapanapalapanapapalalalaoamamamajamamamajamamamaoalalalapapanapalapanapalapapanHaHaHaHaHa
+HaHaHaHaHaaAamaAalaAamaAalaAamaAaoaBauaCaoaoamamasamamamasamamaoaoaBauaCaoaAamaAalaAamaAalaAamaAHaHaHaHaHa
+HaHaHaHaHaaoaoaoalaoaoaoalaoaoaoaoalalalalaoaoaoaoaoaoaoaoaoaoaoalalalalaoaoaoaoalaoaoaoalaoaoaoHaHaHaHaHa
+HaHaHaHaHaapapapaqapapapaqapapapapaqaqaqapapapapapapapapapapapapapaqaqaqapapapapaqapapapaqapapapHaHaHaHaHa
+HaHaHaHaHaamamamamamamamamamamamamamajamamamamamamamamamamamamamamamajamamamamamamamamamamamamamHaHaHaHaHa
+HaHaHaHaHaamamamamamamamamamamamamamajamamamamamamamamamamamamamamamajamamamamamamamamamamamamamHaHaHaHaHa
+HaHaHaHaHaaDajaEamatauavamaDajaEamaFalaGamamaDajaEatauavaDajaEamamaFalaGamaDajaEamatauavamaDajaEHaHaHaHaHa
+HaHaHaHaHaaDasaEamamasamamaDasaEamaFalaGamamaDasaEamasamaDasaEamamaFalaGamaDasaEamamasamamaDasaEHaHaHaHaHa
+HaHaHaHaHaaoaoaoaoaoaoaoaoaoaoaoaoaqalaqaoaoaoaoaoaoaoaoaoaoaoaoaoaqalaqaoaoaoaoaoaoaoaoaoaoaoaoHaHaHaHaHa
+HaHaHaHaHaapapapapapapapapapapapamaoaqaoamapapapapapapapapapapapamaoaqaoamapapapapapapapapapapapHaHaHaHaHa
+HaHaHaHaHaalaHalaHalaHalaHalaHapapamaoamapapaHalaHalaHalaHalaHapapamaoamapapaHalaHalaHalaHalaHalHaHaHaHaHa
+HaHaHaHaHaaHalaHalaHalaHalaHalaHapapapapapaHalaHalaHalaHalaHalaHapapapapapaHalaHalaHalaHalaHalaHHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalaHaHaHaHaHalalalalalalalalalalalaHaHaHaHaHalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaJaIaIaIaIaIaIaIaJaIaIaIaIaIaIaIaJaIaIaIaIaIaIaIaJaIaIaIaIaIaIaIaJaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaKaKaKaKaKaKaKaKaKaKaKaKaKaIaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaIaKaKaKaKaKaKaKaKaKaKaKaKaKHaHaHaHaHa
+HaHaHaHaHaamamamamamamamamamamamamamaLamamamamamamamamamamamamamamamaLamamamamamamamamamamamamamHaHaHaHaHa
+HaHaHaHaHaamamataMavamamamataMavamamaLamamataMavamataNavamataMavamamaLamamataMavamamamataMavamamHaHaHaHaHa
+HaHaHaHaHaamamaDaLaEamamamaDaLaEamamaLamamaDaLaEamaDaLaEamaDaLaEamamaLamamaDaLaEamamamaDaLaEamamHaHaHaHaHa
+HaHaHaHaHaamamaDaLaEamamamaDaLaEamamaLamamaDaLaEamaDaLaEamaDaLaEamamaLamamaDaLaEamamamaDaLaEamamHaHaHaHaHa
+HaHaHaHaHaamamamamamamamamamamamamamaLamamamamamamamamamamamamamamamaLamamamamamamamamamamamamamHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaOaPaQaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaOaRaQaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaLaSababaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIababaTaLaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaLaSababaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIababaTaLaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaOaUaQaIaOaUaQaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaLaLaLaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaKaKaKaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIabababaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIabababaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIaIHaHaHaHaHa
+HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
 HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
 HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
 HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa

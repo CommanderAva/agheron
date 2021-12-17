@@ -107,7 +107,7 @@
 
 /obj/mortar/gas
 	name = "gas mortar"
-
+/*
 /obj/mortar/gas/New()
 	..()
 	create_reagents(100)
@@ -119,7 +119,7 @@
 	spawn(0)
 		S.start()
 	qdel(src)
-
+*/
 /obj/mortar/fire
 	name = "fire mortar"
 

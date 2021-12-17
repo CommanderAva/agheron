@@ -57,15 +57,15 @@
 	if(!can_climb(user))
 		return
 
-	if(istype(get_area(src), /area/warfare/battlefield/no_mans_land))//We're trying to go into no man's land?
-		if(locate(/obj/item/device/boombox) in user)//Locate the boombox.
-			to_chat(user, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")//No you fucking don't.
-			return //Keep that boombox at base asshole.
-		if(locate(/obj/item/storage) in user)//Gotta check storage as well.
-			var/obj/item/storage/S = locate() in user
-			if(locate(/obj/item/device/boombox) in S)
-				to_chat(user, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")
-				return
+//	if(istype(get_area(src), /area/warfare/battlefield/no_mans_land))//We're trying to go into no man's land?
+//		if(locate(/obj/item/device/boombox) in user)//Locate the boombox.
+//			to_chat(user, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")//No you fucking don't.
+//			return //Keep that boombox at base asshole.
+//		if(locate(/obj/item/storage) in user)//Gotta check storage as well.
+//			var/obj/item/storage/S = locate() in user
+	//		if(locate(/obj/item/device/boombox) in S)
+	//			to_chat(user, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")
+	//			return
 
 	user.visible_message("<span class='warning'>[user] starts climbing onto \the [src]!</span>")
 	climbers |= user
@@ -109,7 +109,7 @@
 		overlays.Cut()
 		vis_contents.Cut()
 		update_icon()
-	if(loc.type != /area/warfare/battlefield/no_mans_land) // no base puddles
+//	if(loc.type != /area/warfare/battlefield/no_mans_land) // no base puddles
 		return
 	if(!can_generate_water)//This type can't generate water so don't bother.
 		return
@@ -267,15 +267,15 @@
 /turf/simulated/floor/exoplanet/water/shallow/MouseDrop_T(mob/target, mob/user)
 	var/mob/living/H = user
 	if(istype(H) && can_climb(H) && target == user)
-		if(istype(get_area(src), /area/warfare/battlefield/no_mans_land))//We're trying to go into no man's land?
-			if(locate(/obj/item/device/boombox) in user)//Locate the boombox.
-				to_chat(user, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")//No you fucking don't.
-				return //Keep that boombox at base asshole.
-			if(locate(/obj/item/storage) in user)//Gotta check storage as well.
-				var/obj/item/storage/S = locate() in user
-				if(locate(/obj/item/device/boombox) in S)
-					to_chat(user, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")
-					return
+//		if(istype(get_area(src), /area/warfare/battlefield/no_mans_land))//We're trying to go into no man's land?
+//			if(locate(/obj/item/device/boombox) in user)//Locate the boombox.
+//				to_chat(user, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")//No you fucking don't.
+//				return //Keep that boombox at base asshole.
+//			if(locate(/obj/item/storage) in user)//Gotta check storage as well.
+//				var/obj/item/storage/S = locate() in user
+//				if(locate(/obj/item/device/boombox) in S)
+//					to_chat(user, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")
+//					return
 		do_climb(target)
 	else
 		return ..()

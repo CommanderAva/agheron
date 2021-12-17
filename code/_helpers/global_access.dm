@@ -115,8 +115,8 @@
 			return global.SSvines;
 		if("SSvote")
 			return global.SSvote;
-		if("SSwarfare")
-			return global.SSwarfare;
+//		if("SSwarfare")
+	//		return global.SSwarfare;
 		if("SSwireless")
 			return global.SSwireless;
 		if("SSxenoarch")
@@ -1037,7 +1037,7 @@
 			return global.z_levels;
 		if("zone_blocked")
 			return global.zone_blocked;
-		
+
 /proc/writeglobal(which, newval)
 	switch(which)
 		if("ALL_ANTIGENS")
@@ -1154,8 +1154,8 @@
 			global.SSvines=newval;
 		if("SSvote")
 			global.SSvote=newval;
-		if("SSwarfare")
-			global.SSwarfare=newval;
+//		if("SSwarfare")
+//			global.SSwarfare=newval;
 		if("SSwireless")
 			global.SSwireless=newval;
 		if("SSxenoarch")
@@ -2076,7 +2076,7 @@
 			global.z_levels=newval;
 		if("zone_blocked")
 			global.zone_blocked=newval;
-		
+
 /var/list/_all_globals=list(
 	"ALL_ANTIGENS",
 	"ANTAG_FREQS",

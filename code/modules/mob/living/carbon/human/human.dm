@@ -69,7 +69,7 @@
 /mob/living/carbon/human/Stat()
 	. = ..()
 	if(statpanel("Status"))
-		if(iswarfare())
+/*		if(iswarfare())
 			//stat("[BLUE_TEAM] reinforcements:", SSwarfare.blue.left)
 			//stat("[BLUE_TEAM] capture points:", SSwarfare.blue.points)
 			//stat("[RED_TEAM] reinforcements:", SSwarfare.red.left)
@@ -82,7 +82,7 @@
 			if(warfare_faction == BLUE_TEAM)
 				for(var/area/A in GLOB.blue_captured_zones)
 					stat("Captured Trench:", A)
-
+*/
 		if(crouching)
 			stat("Stance:", "Crouching")
 		else if(lying)

@@ -145,7 +145,7 @@ SUBSYSTEM_DEF(warfare)
 
 	sound_to(world,'sound/ambience/round_over.ogg')
 
-	for(var/mob/M in GLOB.player_list)
+/*	for(var/mob/M in GLOB.player_list)
 		if(!M.client)
 			return
 		if(M.client.warfare_deaths <= 0)
@@ -158,3 +158,4 @@ SUBSYSTEM_DEF(warfare)
 
 		else if(red && C.warfare_faction == RED_TEAM)
 			C.unlock_achievement(new/datum/achievement/warfare_victory())
+*/

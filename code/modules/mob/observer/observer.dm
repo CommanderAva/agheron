@@ -86,7 +86,7 @@ mob/observer/check_airflow_movable()
 		throwing = 0
 		to_chat(src, "<span class='notice'>You cannot move further in this direction.</span>")
 
-
+/*
 /mob/observer/Stat()
 	. = ..()
 	if(statpanel("Status"))
@@ -101,3 +101,4 @@ mob/observer/check_airflow_movable()
 				stat("Red Captured Trench:", A)
 			for(var/area/A in GLOB.blue_captured_zones)
 				stat("Blue Captured Trench:", A)
+*/

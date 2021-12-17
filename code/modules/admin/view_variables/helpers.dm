@@ -143,8 +143,8 @@
 /atom/VV_static()
 	return ..() + list("bound_x", "bound_y", "bound_height", "bound_width", "bounds", "step_x", "step_y", "step_size")
 
-/client/VV_static()
-	return ..() + list("holder", "prefs")
+//client/VV_static()
+//	return ..() + list("holder", "prefs")
 
 /datum/admins/VV_static()
 	return vars
@@ -153,8 +153,8 @@
 /datum/proc/VV_locked()
 	return list("vars", "virus", "viruses", "cuffed")
 
-/client/VV_locked()
-	return list("vars", "mob")
+//client/VV_locked()
+//	return list("vars", "mob")
 
 /mob/VV_locked()
 	return ..() + list("client")
@@ -173,8 +173,8 @@
 /mob/VV_ckey_edit()
 	return list("key", "ckey")
 
-/client/VV_ckey_edit()
-	return list("key", "ckey")
+///client/VV_ckey_edit()
+//	return list("key", "ckey")
 
 /datum/proc/may_edit_var(var/user, var/var_to_edit)
 	if(!user)

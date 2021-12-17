@@ -10,11 +10,11 @@
 	w_class = ITEM_SIZE_NO_CONTAINER
 
 /obj/item/device/boombox/attack_hand(mob/user as mob)
-	if(istype(get_area(user), /area/warfare/battlefield/no_mans_land))//Do not take this into no man's land please.
-		to_chat(user, "I can't take that with me into no man's land. Wouldn't want to lose it.")
-		return
-	else
-		..()
+//	if(istype(get_area(user), /area/warfare/battlefield/no_mans_land))//Do not take this into no man's land please.
+//		to_chat(user, "I can't take that with me into no man's land. Wouldn't want to lose it.")
+//		return
+//	else
+	..()
 
 /obj/item/device/boombox/New()
 	..()

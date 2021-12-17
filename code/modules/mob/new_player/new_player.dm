@@ -305,13 +305,13 @@
 	if(jobban_isbanned(src, job.title))	return 0
 	if(!job.player_old_enough(src.client))	return 0
 	if(job.no_late_join) return 0
-	if(job.is_red_team)//Can't join the team if they have more people on their side.
+/*	if(job.is_red_team)//Can't join the team if they have more people on their side.
 		if(client?.warfare_faction != RED_TEAM)
 			return 0
 	if(job.is_blue_team)
 		if(client?.warfare_faction != BLUE_TEAM)
 			return 0
-
+*/
 	return 1
 
 /mob/new_player/proc/get_branch_pref()
@@ -529,8 +529,8 @@
 		client.prefs.real_name = random_name(new_character.gender)
 		client.prefs.randomize_appearance_and_body_for(new_character)
 	else
-		if(client.warfare_deaths)
-			client.prefs.be_random_name = TRUE
+//		if(client.warfare_deaths)
+//			client.prefs.be_random_name = TRUE
 		client.prefs.copy_to(new_character)
 
 	sound_to(src, sound(null, repeat = 0, wait = 0, volume = 85, channel = 1))// MAD JAMS cant last forever yo

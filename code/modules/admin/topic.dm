@@ -2014,8 +2014,8 @@ mob/living/silicon/ai/can_centcom_reply()
 /datum/proc/get_admin_jump_link(var/atom/target)
 	return
 
-/mob/get_admin_jump_link(var/atom/target, var/delimiter, var/prefix, var/sufix)
-	return client && client.get_admin_jump_link(target, delimiter, prefix, sufix)
+//mob/get_admin_jump_link(var/atom/target, var/delimiter, var/prefix, var/sufix)
+//	return client && client.get_admin_jump_link(target, delimiter, prefix, sufix)
 
 /client/get_admin_jump_link(var/atom/target, var/delimiter, var/prefix, var/sufix)
 	if(holder)
