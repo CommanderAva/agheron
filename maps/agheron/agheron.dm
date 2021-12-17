@@ -10,7 +10,7 @@
 
 	#include "agheron2-1.dmm"
 
-	#include "../../code/modules/lobby_music/generic_songs.dm"
+	#include "../../code/modules/lobby_music/arghon.dm"
 
 	#define using_map_DATUM /datum/map/agheron
 #elif !defined(MAP_OVERRIDE)

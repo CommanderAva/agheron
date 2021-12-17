@@ -16,6 +16,7 @@
 "p" = (/obj/structure/table/steel,/obj/item/gun/projectile/automatic/m22,/obj/structure/torchwall{icon_state = "torchwall0"; dir = 4},/turf/simulated/floor/grass,/area/wilderness)
 "q" = (/obj/structure/torchwall,/turf/simulated/wall/wood,/area/wilderness)
 "r" = (/obj/item/shovel,/obj/structure/torchwall{icon_state = "torchwall0"; dir = 4},/turf/simulated/floor/grass,/area/wilderness)
+"s" = (/obj/effect/landmark/map_data{height = 2},/turf/simulated/floor/grass,/area/wilderness)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -67,5 +68,5 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}

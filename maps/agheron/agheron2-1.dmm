@@ -1,4 +1,4 @@
-"a" = (/turf/simulated/mineral,/area/wilderness/mines)
+"a" = (/turf/simulated/mineral/random,/area/wilderness/mines)
 "b" = (/turf/simulated/mineral,/area/wilderness/mines_entrance)
 "c" = (/obj/structure/torchwall{icon_state = "torchwall0"; dir = 4},/turf/simulated/floor/dirty,/area/wilderness/mines_entrance)
 "d" = (/turf/simulated/floor/dirty,/area/wilderness/mines_entrance)
@@ -16,16 +16,26 @@
 "p" = (/obj/structure/table/steel,/obj/item/gun/projectile/makarov,/turf/simulated/floor/grass,/area/wilderness)
 "q" = (/obj/structure/sink{icon_state = "sink"; dir = 8},/turf/simulated/floor/wood,/area/wilderness)
 "r" = (/obj/structure/torchwall{icon_state = "torchwall0"; dir = 1},/turf/simulated/floor/wood,/area/wilderness)
-"s" = (/turf/simulated/floor/wood,/area/wilderness)
+"s" = (/obj/effect/landmark/map_data,/turf/simulated/mineral,/area/wilderness/mines)
 "t" = (/obj/structure/torchwall,/turf/simulated/wall/wood,/area/wilderness)
 "u" = (/obj/item/shovel,/obj/structure/torchwall{icon_state = "torchwall0"; dir = 4},/turf/simulated/floor/grass,/area/wilderness)
 "v" = (/mob/living/carbon/human/blank,/turf/simulated/floor/grass,/area/wilderness)
 "w" = (/obj/effect/landmark/start,/turf/simulated/floor/grass,/area/wilderness)
-"x" = (/turf/simulated/open,/area/space)
+"x" = (/turf/simulated/open,/area/wilderness)
 "y" = (/obj/item/torch/self_lit,/turf/simulated/floor/grass,/area/wilderness/mines_entrance)
 "z" = (/obj/structure/torchwall{icon_state = "torchwall0"; dir = 1},/turf/simulated/floor/grass,/area/wilderness/mines_entrance)
-"A" = (/obj/structure/stairs/south{step_y = 31},/turf/simulated/mineral,/area/wilderness/mines_entrance)
-"E" = (/obj/structure/stairs/south,/turf/simulated/open,/area/wilderness/mines_entrance)
+"A" = (/obj/structure/stairs/south,/turf/simulated/floor/dirty,/area/wilderness/mines_entrance)
+"B" = (/obj/structure/stairs/south,/turf/simulated/floor/grass,/area/wilderness)
+"C" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/wood,/area/wilderness)
+"D" = (/obj/effect/landmark/map_data{height = 2},/turf/simulated/floor/grass,/area/wilderness)
+"E" = (/turf/simulated/open,/area/wilderness/mines_entrance)
+"F" = (/turf/simulated/floor/wood,/area/wilderness)
+"G" = (/obj/effect/landmark/map_data{height = 3},/turf/simulated/open,/area/wilderness)
+"H" = (/obj/item/material/sword,/turf/simulated/floor/grass,/area/wilderness)
+"I" = (/obj/item/material/sword/sabre,/turf/simulated/floor/grass,/area/wilderness)
+"J" = (/mob/living/carbon/human,/turf/simulated/floor/grass,/area/wilderness)
+"K" = (/mob/living/carbon/human/dummy,/turf/simulated/floor/grass,/area/wilderness)
+"L" = (/mob/living/carbon/human/child,/turf/simulated/floor/grass,/area/wilderness)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -47,8 +57,8 @@ aaaaaaaaaaaaaaaabcdbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaeddibaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaebidbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaebcdbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaebddbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaabAAbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaebAAbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaabbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaabbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -77,7 +87,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
 
 (1,1,2) = {"
@@ -101,12 +111,12 @@ ffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffjEEyffhfffffffffffffffffffffffffff
-ffffffffffffffffzjjjffkfffffffffffffffffffffffffff
-fffffffffffffflmmmmnffffgfffffffffffffffffffffffff
-fffffffffffffffmmompffffffffffffffffffffffffffffff
-fffffffffffffffmqrsfffffffffffffffffffffffffffffff
+fffffffffffffffBzjjjfHkfffffffffffffffffffffffffff
+fffffffffffffflmmmmnHfffgfffffffffffffffffffffffff
+fffffffffffffffmmompIfffffffffffffffffffffffffffff
+fffffffffffffffmqrCfffffffffffffffffffffffffffffff
 fffffffffffffflmmmtugfffffffffffffffffffffffffffff
-fffffffffffffffvvvvfffwffffgffffffffffffffffffffff
+fffffffffffffffJKLvfffwffffgffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -130,7 +140,7 @@ ffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffffffffffffffffffff
+Dfffffffffffffffffffffffffffffffffffffffffffffffff
 "}
 
 (1,1,3) = {"
@@ -155,6 +165,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxFFFFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxFFFFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxFFFFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxFFFFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -179,9 +193,5 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Gxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 "}

@@ -3,6 +3,7 @@
 "c" = (/turf/simulated/floor/asteroid,/area/wilderness/mines)
 "d" = (/obj/item/pickaxe,/turf/simulated/floor/asteroid,/area/wilderness/mines)
 "e" = (/obj/structure/stairs/south,/turf/simulated/floor/asteroid,/area/wilderness/mines)
+"f" = (/obj/effect/landmark/map_data,/turf/simulated/mineral,/area/wilderness/mines)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -54,5 +55,5 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
