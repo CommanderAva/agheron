@@ -16,7 +16,7 @@
 	lobby_screens = list("lobby1","lobby2","lobby3","lobby4","lobby5", "lobby6")
 
 	station_levels = list(1,2)
-	contact_levels = list(1)
+	contact_levels = list(1,2)
 	player_levels = list(1,2)
 
 	allowed_spawns = list("Arrivals Shuttle")

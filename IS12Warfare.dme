@@ -2447,6 +2447,7 @@
 #include "maps\_map_include.dm"
 #include "maps\agheron\agheron.dm"
 #include "maps\agheron\agheron_define.dm"
+#include "maps\agheron\agheron2-1.dmm"
 #include "maps\away\away_sites.dm"
 #include "maps\away\mining\mining_areas.dm"
 #include "maps\overmap_example\overmap_example_define.dm"
