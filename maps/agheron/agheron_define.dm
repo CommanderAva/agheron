@@ -19,7 +19,7 @@
 	player_levels = list(1,2,3)
 
 	allowed_spawns = list("Arrivals Shuttle")
-	base_turf_by_z = list("1" = /turf/simulated/floor/dirty, "2" = /turf/simulated/floor/dirty, "3" = /turf/simulated/floor/dirty)
+	base_turf_by_z = list("1" = /turf/simulated/floor/grass, "2" = /turf/simulated/floor/grass, "3" = /turf/simulated/floor/grass)
 	shuttle_docked_message = "The shuttle has docked."
 	shuttle_leaving_dock = "The shuttle has departed from home dock."
 	shuttle_called_message = "A scheduled transfer shuttle has been sent."
@@ -28,7 +28,7 @@
 	emergency_shuttle_leaving_dock = "The emergency escape shuttle has departed from %dock_name%."
 	emergency_shuttle_called_message = "An emergency escape shuttle has been sent."
 	emergency_shuttle_recall_message = "The emergency shuttle has been recalled"
-	map_lore = "You are a band of settlers trying to survive in youngborn settlement of Agheron in southern Suthesia."
+	map_lore = "You are a band of settlers trying to survive in youngborn village of Agheron in southern Suthesia."
 
 
 

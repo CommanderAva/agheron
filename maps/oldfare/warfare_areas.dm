@@ -199,8 +199,8 @@ GLOBAL_LIST_EMPTY(mortar_areas) // = list()
 
 //If it's not time for war then you can't exit your starting trench.
 /area/warfare/battlefield/Enter(atom/movable/mover as mob|obj, atom/forget as mob|obj|turf|area)
-	if(!iswarfare())
-		return TRUE
+//	if(!iswarfare())
+//		return TRUE
 	if(ishuman(mover))
 		var/mob/living/carbon/human/H = mover
 
@@ -217,13 +217,13 @@ GLOBAL_LIST_EMPTY(mortar_areas) // = list()
 				to_chat(H, "I can't bring this with me onto the battlefield. Wouldn't want to lose it.")
 				return
 
-		if(istype(SSjobs.GetJobByTitle(H.job), /datum/job/fortress) && captured != H.warfare_faction)
-			to_chat(H, "<big>I need to stay home!</big>")
-			return FALSE
+//		if(istype(SSjobs.GetJobByTitle(H.job), /datum/job/fortress) && captured != H.warfare_faction)
+//			to_chat(H, "<big>I need to stay home!</big>")
+//			return FALSE
 
-		if(!SSwarfare.battle_time && captured != H.warfare_faction)//So people can enter their own trenches.
-			to_chat(H, "<big>I am not ready to die yet!</big>")
-			return FALSE
+//		if(!SSwarfare.battle_time && captured != H.warfare_faction)//So people can enter their own trenches.
+//			to_chat(H, "<big>I am not ready to die yet!</big>")
+//			return FALSE
 
 	if(istype(mover, /obj/item/device/boombox))//No boomboxes in no man's land please.
 		return
@@ -287,8 +287,8 @@ GLOBAL_LIST_EMPTY(mortar_areas) // = list()
 	icon_state = "start"
 
 /area/warfare/farawayhome/Enter(atom/movable/mover as mob|obj, atom/forget as mob|obj|turf|area)
-	if(!iswarfare())
-		return TRUE
+//	if(!iswarfare())
+//		return TRUE
 	if(ishuman(mover))
 		var/mob/living/carbon/human/H = mover
 		to_chat(H, "<big>I CANNOT DISOBEY ORDERS!</big>")
