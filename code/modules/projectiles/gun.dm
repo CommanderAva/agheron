@@ -5,6 +5,8 @@
 #define GUN_LMG "lmg"
 #define GUN_SMG "smg"
 #define GUN_PISTOL "pistol"
+#define GUN_CROSSBOW "crossbow"
+#define GUN_BOW "bow"
 
 /*
 	Defines a firing mode for a gun.
@@ -395,7 +397,9 @@
 	//Dispersion stuff. I'll put it in its own proc soon enough.
 	var/mod = rand(5,20)
 	var/wrong_gun_class_mod = mod + (mod * 0.5)//A lot.
+
 	switch(gun_type)
+	/*
 		if(GUN_AUTOMATIC)
 			if(user.SKILL_LEVEL(auto_rifle) < 6) //Less than over half, make them do a statcheck.
 				if(user.statscheck(skills = user.SKILL_LEVEL(auto_rifle) <= FAILURE))
@@ -425,6 +429,16 @@
 			if(user.SKILL_LEVEL(smg) < 6) //Less than over half, make them do a statcheck.
 				if(user.statscheck(skills = user.SKILL_LEVEL(smg) <= FAILURE))
 					P.dispersion += wrong_gun_class_mod
+	*/
+		if(GUN_CROSSBOW)
+			if(user.SKILL_LEVEL(crossbow) < 6) //Less than over half, make them do a statcheck.
+				if(user.statscheck(skills = user.SKILL_LEVEL(crossbow) <= FAILURE))
+					P.dispersion += wrong_gun_class_mod
+		if(GUN_BOW)
+			if(user.SKILL_LEVEL(bow) < 6) //Less than over half, make them do a statcheck.
+				if(user.statscheck(skills = user.SKILL_LEVEL(bow) <= FAILURE))
+					P.dispersion += wrong_gun_class_mod
+
 
 	if(user.chem_effects[CE_PAINKILLER] > 100)
 		P.dispersion += 10

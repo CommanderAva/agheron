@@ -57,6 +57,8 @@ var/global/datum/controller/occupations/SSjobs
 			GLOB.civilian_positions |= job.title
 		if(job.department_flag & MSC)
 			GLOB.nonhuman_positions |= job.title
+		if(job.department_flag & VLG)
+			GLOB.village_positions |= job.title
 
 		if(job.social_class > SOCIAL_CLASS_MED)
 			GLOB.nobles |= job.title

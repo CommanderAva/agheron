@@ -14,7 +14,7 @@
 	name = "alcoholic"
 	description = "I need booze to be happy."
 
-/datum/quirk/cig_addict //Starts out addicted to nicotine.
+/datum/quirk/cig_addict //Starts out addicted to nicotine. (smoke leaf)
 	name = "a smoker"
 	description = "I need a smoke every now and then."
 
@@ -41,11 +41,40 @@
 /datum/quirk/dead_inside //Gets no moods. Isn't bothered by anything.
 	name = "dead inside"
 	description = "I feel nothing anymore."
-/*
+
 /datum/quirk/psychopath //Shooting people boosts their mood.
 	name = "psychopath"
 	description = "I love killing people!"
-*/
+
+/datum/quirk/intelligent //Has more brain surface area. +2 int.
+	name = "intelligent"
+	description = "I am one of the sharpest minds here!"
+
+/datum/quirk/dumb //His head is slower than most. -2 int.
+	name = "dumb"
+	description = "I am a bit more stupid than other people."
+
+/datum/quirk/imbecile //Brain is smooth as water surface. -4 int.
+	name = "imbecile"
+	description = "I'm bad at thinking."
+
+/datum/quirk/good_composure //Brain is smooth as water surface. -4 int.
+	name = "good composure"
+	description = "My body is ripped!."
+
+/datum/quirk/bad_composure //Brain is smooth as water surface. -4 int.
+	name = "good composure"
+	description = "My body is weak."
+
+/datum/quirk/nimble //Brain is smooth as water surface. -4 int.
+	name = "nimble"
+	description = "I am very nimble!."
+
+/datum/quirk/not_nimble //Brain is smooth as water surface. -4 int.
+	name = "wood fingers"
+	description = "I am not very dexterious."
+
+
 
 
 /mob/living/proc/has_quirk(var/datum/quirk/this_quirk)

@@ -9,6 +9,7 @@ var/const/SRV               =(1<<7)
 var/const/SUP               =(1<<8)
 var/const/SPT               =(1<<9)
 var/const/EXP               =(1<<10)
+var/const/VLG				=(1<<11)
 
 GLOBAL_LIST_EMPTY(assistant_occupations)
 
@@ -37,6 +38,8 @@ GLOBAL_LIST_EMPTY(exploration_positions)
 GLOBAL_LIST_EMPTY(unsorted_positions) // for nano manifest
 
 GLOBAL_LIST_EMPTY(nobles) //For revolution game mode.
+
+GLOBAL_LIST_EMPTY(village_positions)
 
 
 /proc/guest_jobbans(var/job)

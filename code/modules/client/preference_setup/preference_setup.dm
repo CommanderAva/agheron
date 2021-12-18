@@ -12,24 +12,16 @@ var/const/CHARACTER_PREFERENCE_INPUT_TITLE = "Character Preference"
 	name = "Skills"
 	sort_order = 2
 	category_item_type = /datum/category_item/player_setup_item/skills
-*/
-
-
 
 /datum/category_group/player_setup_category/occupation_preferences
 	name = "Occupation"
 	sort_order = 2
 	category_item_type = /datum/category_item/player_setup_item/occupation
-
-
-
-
+*/
 /datum/category_group/player_setup_category/appearance_preferences
 	name = "Antagonism"
 	sort_order = 3
 	category_item_type = /datum/category_item/player_setup_item/antagonism
-
-
 
 /datum/category_group/player_setup_category/loadout_preferences
 	name = "Loadout"

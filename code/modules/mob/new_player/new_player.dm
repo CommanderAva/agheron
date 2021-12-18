@@ -442,7 +442,8 @@
 		"Medical"=list("color"="#76abb2", "jobs"=list()),
 		"Supply"=list("color"="#76abb2", "jobs"=list()),
 		"Civillian"=list("color"="#76abb2", "jobs"=list()),
-		"Misc"=list("color"="Grey", "jobs"=list())
+		"Misc"=list("color"="Grey", "jobs"=list()),
+		"Village"=list("color"="Grey", "jobs"=list())
 		)
 
 	for(var/datum/job/job in SSjobs.occupations)
@@ -453,7 +454,9 @@
 			jobcats["Team Blue"]["jobs"] += job
 		else if(job.is_red_team)
 			jobcats["Team Red"]["jobs"] += job
-		else if(job.department_flag & COM)
+		else if(job.is_villager)
+			jobcats["Village"]["jobs"] += job
+		else if(job.department_flag & CIV)
 			jobcats["Command"]["jobs"] += job
 		else if(job.department_flag & SEC)
 			jobcats["Security"]["jobs"] += job
@@ -632,7 +635,7 @@ mob/new_player/MayRespawn()
 	show_new_information()
 
 /mob/new_player/proc/show_new_information()
-	var/dat = {"<h2>IS12 Warfare</h2>
+/*	var/dat = {"<h2>IS12 Warfare</h2>
 Hello! It appears you are new here! Thanks for joining IS12 Warfare. Here is some important information to get you started!
 <h3>Discord Link</h3>
 <font size='4'><a href=\"https://discord.gg/FVRctMD\">Discord</a></font>
@@ -646,3 +649,4 @@ Controls are ingame under the \"view controls\" button in OOC.
 Rules are ingame under the \"rules\" button in OOC.
 <h3>Enjoy your stay!</h3>"}
 	src << browse(dat, "window=welcome")
+*/

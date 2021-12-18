@@ -104,6 +104,8 @@
 			continue
 		if(job.is_blue_team && user.client.warfare_faction == RED_TEAM)
 			. += "<del><span class='job_class'>[rank]</span></del></td><td><b> \[UNAVAILABLE]</b></td></tr>"
+		if(job.is_villager)
+			. += "<del><span class='job_class'>[rank]</span></del></td><td><b> \[UNAVAILABLE]</b></td></tr>"
 		if(job.is_red_team && user.client.warfare_faction == BLUE_TEAM)
 			. += "<del><span class='job_class'>[rank]</span></del></td><td><b> \[UNAVAILABLE]</b></td></tr>"
 		if(jobban_isbanned(user, rank))

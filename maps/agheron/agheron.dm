@@ -4,6 +4,7 @@
 	#include "agheron_unit_testing.dm"
 	#include "../shared/items/clothing.dm"
 	#include "../shared/items/cards_ids.dm"
+	#include "jobs/villagers.dm"
 
 	//#include "agheron-1.dmm"
     //#include "agheron-2.dmm"

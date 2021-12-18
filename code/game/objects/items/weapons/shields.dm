@@ -97,27 +97,38 @@
 
 /obj/item/shield/buckler
 	name = "buckler"
-	desc = "A wooden buckler used to block sharp things from entering your body back in the day.."
+	desc = "A small wooden shield used to block sharp things from entering your body."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "buckler"
-	slot_flags = SLOT_BACK
+	slot_flags = SLOT_BELT
 	force = 8
 	throwforce = 8
-	base_block_chance = 60
+	base_block_chance = 25
 	throw_speed = 10
 	throw_range = 20
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_SMALL
 	origin_tech = list(TECH_MATERIAL = 1)
-	matter = list(DEFAULT_WALL_MATERIAL = 1000, "Wood" = 1000)
+	matter = list(DEFAULT_WALL_MATERIAL = 100, "Wood" = 500)
 	attack_verb = list("shoved", "bashed")
 
 /obj/item/shield/buckler/handle_shield(mob/living/user)
 	. = ..()
 	if(.) playsound(user.loc, 'sound/items/buckler_block.ogg', 50, 1)
 
+
+
+/obj/item/shield/buckler/round
+	name = "round shield"
+	desc = "A proper round shield used to block sharp things from entering your body."
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "r_w_shield"
+	base_block_chance = 50
+	w_class = ITEM_SIZE_HUGE
+	matter = list(DEFAULT_WALL_MATERIAL = 400, "Wood" = 2000)
+
 /obj/item/shield/buckler/get_block_chance(mob/user, var/damage, atom/damage_source = null, mob/attacker = null)
-	if(istype(damage_source, /obj/item/projectile))
-		return 0 //No blocking bullets, I'm afraid.
+//	if(istype(damage_source, /obj/item/projectile))
+//		return 0 //No blocking bullets, I'm afraid.
 	return base_block_chance
 
 /*

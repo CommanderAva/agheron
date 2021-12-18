@@ -47,7 +47,8 @@ GLOBAL_LIST_EMPTY(family_blacklist)
 	var/no_late_join = FALSE			 //If set to true, the job will no longer be in the late join list.
 	var/late_join_only = FALSE			 //Can only late join. Is not a roundstart role.
 	var/is_blue_team = FALSE			 //Warfare shit.
-	var/is_red_team = FALSE				 //Same here.
+	var/is_red_team = FALSE
+	var/is_villager	= FALSE			 		 // Is this person villager?
 	var/can_be_in_squad = FALSE			 //Whether or not the job can be in a squad or not. Used for warfare shit.
 	var/role_desc = null
 	//Skill defines. Put the MAXIMUM skill you want here, when it assigns skills it will randomly subtract 3 unless specific skill is set.
@@ -64,6 +65,8 @@ GLOBAL_LIST_EMPTY(family_blacklist)
 	var/shotgun_skill = 5
 	var/lmg_skill = 5
 	var/smg_skill = 5
+	var/bow_skill = 5
+	var/crossbow_skill = 5
 
 
 /datum/job/New()
@@ -87,27 +90,28 @@ GLOBAL_LIST_EMPTY(family_blacklist)
 		H.SKILL_LEVEL(ranged) = ranged_skill
 		H.SKILL_LEVEL(engineering) = engineering_skill
 		H.SKILL_LEVEL(melee) = melee_skill
-		//Gun skills
+		/*Gun skills
 		H.SKILL_LEVEL(auto_rifle) = auto_rifle_skill
 		H.SKILL_LEVEL(semi_rifle) = semi_rifle_skill
 		H.SKILL_LEVEL(sniper) = sniper_skill
 		H.SKILL_LEVEL(shotgun) = shotgun_skill
 		H.SKILL_LEVEL(lmg) = lmg_skill
 		H.SKILL_LEVEL(smg) = smg_skill
+		*/
 		return
 	H.SKILL_LEVEL(medical) = rand((medical_skill - 3), medical_skill)
 	H.SKILL_LEVEL(surgery) = rand((surgery_skill - 3), surgery_skill)
 	H.SKILL_LEVEL(ranged) = rand((ranged_skill - 3), ranged_skill)
 	H.SKILL_LEVEL(engineering) = rand((engineering_skill - 3), engineering_skill)
 	H.SKILL_LEVEL(melee) = rand((melee_skill - 3), melee_skill)
-	//Gun skills
+	/* Gun skills
 	H.SKILL_LEVEL(auto_rifle) = rand((auto_rifle_skill - 3), auto_rifle_skill)
 	H.SKILL_LEVEL(semi_rifle) = rand((semi_rifle_skill - 3), semi_rifle_skill)
 	H.SKILL_LEVEL(sniper) = rand((sniper_skill - 3), sniper_skill)
 	H.SKILL_LEVEL(shotgun) = rand((shotgun_skill - 3), shotgun_skill)
 	H.SKILL_LEVEL(lmg) = rand((lmg_skill - 3), lmg_skill)
 	H.SKILL_LEVEL(smg) = rand((smg_skill - 3), smg_skill)
-
+	*/
 /datum/job/proc/equip(var/mob/living/carbon/human/H, var/alt_title, var/datum/mil_branch/branch, var/datum/mil_rank/grade)
 	if(child_role)
 		H.set_species("Child")//Actually makes them a child.

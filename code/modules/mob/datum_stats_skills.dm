@@ -68,6 +68,24 @@
 /datum/skill/surgery
 	name = "surgery"
 
+/datum/skill/cooking
+	name = "cooking"
+
+/datum/skill/fishing
+	name = "fishing"
+
+/datum/skill/smithing
+	name = "smithing"
+
+/datum/skill/woodworking
+	name = "woodworking"
+
+/datum/skill/stoneworking
+	name = "stoneworking"
+
+/datum/skill/leatherworking
+	name = "leatherworking"
+/*
 //Gun skills.
 /datum/skill/auto_rifle
 	category = "Gun Skills"
@@ -92,6 +110,14 @@
 /datum/skill/smg
 	category = "Gun Skills"
 	name = "SMGs"
+*/
+/datum/skill/bow
+	category = "Gun Skills"
+	name = "Bows"
+
+/datum/skill/crossbow
+	category = "Gun Skills"
+	name = "Crossbows"
 
 
 //Initalization
@@ -154,6 +180,11 @@
 /proc/cmp_skill_level(datum/skill/A, datum/skill/B)
     return cmp_numeric_asc(B.level, A.level)
 
+/mob/living/carbon/human/verb/check_my_skills()
+	set name = "Check My Skills"
+	set category = "IC"
+	check_skills()
+
 //Checking skills
 /mob/living/carbon/human/proc/check_skills()
 	set name = "Check Skills"
@@ -188,14 +219,28 @@
 			STAT_LEVEL(str) += 2
 	if(dexterity)
 		STAT_LEVEL(dex) = dexterity
+		if(has_quirk(/datum/quirk/nimble))
+			STAT_LEVEL(dex) += 2
+		if(has_quirk(/datum/quirk/not_nimble))
+			STAT_LEVEL(dex) -= 2
 	if(endurance)
 		STAT_LEVEL(end) = endurance
+		if(has_quirk(/datum/quirk/good_composure))
+			STAT_LEVEL(end) += 2
+		if(has_quirk(/datum/quirk/bad_composure))
+			STAT_LEVEL(end) -= 2
 	if(intelligence)
 		STAT_LEVEL(int) = intelligence
+		if(has_quirk(/datum/quirk/intelligent))
+			STAT_LEVEL(int) += 2
+		if(has_quirk(/datum/quirk/dumb))
+			STAT_LEVEL(int) -= 2
+		if(has_quirk(/datum/quirk/imbecile))
+			STAT_LEVEL(int) -= 4
 	updateweight()
 
 //same thing but for skills
-/mob/living/carbon/human/proc/add_skills(var/melee, var/ranged, var/medical, var/engineering, var/surgery)
+/mob/living/carbon/human/proc/add_skills(var/melee, var/ranged, var/medical, var/engineering, var/surgery, var/cooking, var/fishing, var/smithing, var/woodworking, var/stoneworking, var/leatherworking)
 	if(melee)
 		SKILL_LEVEL(melee) = melee
 	if(ranged)
@@ -206,6 +251,18 @@
 		SKILL_LEVEL(engineering) = engineering
 	if(surgery)
 		SKILL_LEVEL(surgery) = surgery
+	if(cooking)
+		SKILL_LEVEL(cooking) = cooking
+	if(fishing)
+		SKILL_LEVEL(fishing) = fishing
+	if(smithing)
+		SKILL_LEVEL(smithing) = smithing
+	if(woodworking)
+		SKILL_LEVEL(woodworking) = woodworking
+	if(stoneworking)
+		SKILL_LEVEL(stoneworking) = stoneworking
+	if(leatherworking)
+		SKILL_LEVEL(leatherworking) = leatherworking
 
 
 ///Modifiers///
