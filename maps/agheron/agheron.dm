@@ -5,7 +5,7 @@
 	#include "../shared/items/clothing.dm"
 	#include "../shared/items/cards_ids.dm"
 	#include "jobs/villagers.dm"
-
+	#include "items/agheron.dm"
 	//#include "agheron-1.dmm"
     //#include "agheron-2.dmm"
 
