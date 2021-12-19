@@ -8,31 +8,40 @@
 	if(!crafting_recipes)
 		return
 
+	for(var/i = crafting_recipes.len; i >= 0; i--)
+		var/datum/crafting_recipe/CR = crafting_recipes[i]
+		world.log << CR.category
+
 	var/dat = ""
 	var/turf/spot = get_step(src, dir)
 	if(!spot.Adjacent(src))
 		src << "<span class='warning'>You need more space to work.</span>"
+		world.log << "<span class='warning'>You need more space to work.</span>"
 		return
 	for(var/name in crafting_recipes)
 		var/datum/crafting_recipe/R = crafting_recipes[name]
-		if(R.can_make(src, spot))
-			dat += "<A href='?src=\ref[src];craft=[name]'>[R.name]</A> "
-			dat += "Parts: "
-			var/list/parts = list()
-			for(var/T in R.parts)
+		dat += "<A href='?src=\ref[src];craft=[name]'>[R.name]</A> "
+		dat += "Parts: "
+		var/list/parts = list()
+		for(var/T in R.parts)
+			var/atom/A = T
+			parts += "[initial(A.name)] x[R.parts[T]]"
+		dat += english_list(parts)
+		if(R.tools)
+			dat+= ". Tools needed: "
+			var/list/tools = list()
+			for(var/T in R.tools)
 				var/atom/A = T
-				parts += "[initial(A.name)] x[R.parts[T]]"
-			dat += english_list(parts)
-			if(R.tools)
-				dat+= ". Tools needed: "
-				var/list/tools = list()
-				for(var/T in R.tools)
-					var/atom/A = T
-					tools += "[initial(A.name)]"
-				dat += english_list(tools)
-			dat += ".<br>"
+				tools += "[initial(A.name)]"
+			dat += english_list(tools)
+		if(R.can_make(src, spot))
+			dat += "<b> Craftable</b>"
+		else
+			dat += "<b> Not Craftable</b>"
+		dat += ".<br>"
 	if(!dat)
 		src << "<span class='notice'>You can't think of anything you can make with what you have in here.</span>"
+		world.log << "<span class='notice'>You can't think of anything you can make with what you have in here.</span>"
 		return
 	var/datum/browser/popup = new(src, "craft", "Craft", 300, 300)
 	popup.set_content(dat)
@@ -46,6 +55,7 @@
 
 	var/time = 0 			//time in 1/10th of second
 	var/base_chance = 100 	//base chance to get it right without skills
+	var/category = "Items"
 
 /datum/crafting_recipe/proc/check_parts(var/list/things)
 	if(!parts)

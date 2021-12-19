@@ -6,6 +6,7 @@
 
 	time = 30 			//time in 1/10th of second
 	base_chance = 100 	//base chance to get it right without skills
+	category = "Tools"
 
 /datum/crafting_recipe/wirecutters
 	name = "Wirecutters"
@@ -14,6 +15,7 @@
 	result = list(/obj/item/wirecutters = 1)
 	time = 30
 	base_chance = 100
+	category = "Tools"
 
 
 /datum/crafting_recipe/screwdriver
@@ -24,3 +26,4 @@
 
 	time = 30
 	base_chance = 100
+	category = "Tools"

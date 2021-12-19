@@ -5,6 +5,7 @@
 	result = list(/obj/item/gun/projectile/revolver/crafted/one_chamber = 1)
 	time = 60
 	base_chance = 100
+	category = "Gun"
 
 /datum/crafting_recipe/revolver_two
 	name = "Station made revolver two slot"
@@ -13,6 +14,7 @@
 	result = list(/obj/item/gun/projectile/revolver/crafted/two_chamber = 1)
 	time = 60
 	base_chance = 100
+	category = "Gun"
 
 /datum/crafting_recipe/revolver_three
 	name = "Station made revolver three slot"
@@ -21,6 +23,7 @@
 	result = list(/obj/item/gun/projectile/revolver/crafted/three_chamber = 1)
 	time = 60
 	base_chance = 100
+	category = "Gun"
 
 /datum/crafting_recipe/revolver_four
 	name = "Station made revolver four slot"
@@ -29,3 +32,4 @@
 	result = list(/obj/item/gun/projectile/revolver/crafted/four_chamber = 1)
 	time = 60
 	base_chance = 100
+	category = "Gun"
