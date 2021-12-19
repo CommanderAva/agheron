@@ -21,6 +21,7 @@
 			dat+= "<h3>[R.category]</h3><br>"
 			sort_cat = R.category
 		dat += "<A href='?src=\ref[src];craft=[name]'>[R.name]</A> "
+		dat += "<br>[src]<br>"
 		dat += "Parts: "
 		var/list/parts = list()
 		for(var/T in R.parts)
@@ -62,10 +63,10 @@
 	var/parts_present = check_parts(things)
 	var/tools_present = check_tools(things)
 
-	if(!parts_present)
-		world.log << "[name] lacks parts"
-	if(!tools_present)
-		world.log << "[name] lacks tools"
+	//if(!parts_present)
+	//	world.log << "[name] lacks parts"
+	//if(!tools_present)
+	//	world.log << "[name] lacks tools"
 
 	return parts_present && tools_present
 
