@@ -1,0 +1,5 @@
+<h1>Welcome to Ava's Fentesya!</h1>
+
+-<i>This server is running a custom modification of the <a href="https://github.com/Project-IS12/IS12-Warfare</a> Interstation12 code.</i>
+<br><br>
+<strong>U mene nalyty samohon stakanchik, bilya haty brodyt molody kabanchik</strong>
