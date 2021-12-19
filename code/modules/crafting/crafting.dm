@@ -8,10 +8,7 @@
 	if(!crafting_recipes)
 		return
 
-	for(var/i = crafting_recipes.len; i >= 0; i--)
-		var/datum/crafting_recipe/CR = crafting_recipes[i]
-		world.log << CR.category
-
+	var/sort_cat;
 	var/dat = ""
 	var/turf/spot = get_step(src, dir)
 	if(!spot.Adjacent(src))
@@ -20,6 +17,9 @@
 		return
 	for(var/name in crafting_recipes)
 		var/datum/crafting_recipe/R = crafting_recipes[name]
+		if(sort_cat!=R.category)
+			dat+= "<h3>[R.category]</h3><br>"
+			sort_cat = R.category
 		dat += "<A href='?src=\ref[src];craft=[name]'>[R.name]</A> "
 		dat += "Parts: "
 		var/list/parts = list()
@@ -41,7 +41,6 @@
 		dat += ".<br>"
 	if(!dat)
 		src << "<span class='notice'>You can't think of anything you can make with what you have in here.</span>"
-		world.log << "<span class='notice'>You can't think of anything you can make with what you have in here.</span>"
 		return
 	var/datum/browser/popup = new(src, "craft", "Craft", 300, 300)
 	popup.set_content(dat)
@@ -57,12 +56,26 @@
 	var/base_chance = 100 	//base chance to get it right without skills
 	var/category = "Items"
 
+/datum/crafting_recipe/proc/can_make(var/mob/user, var/turf/spot)
+	var/list/things = spot.contents + user.contents
+
+	var/parts_present = check_parts(things)
+	var/tools_present = check_tools(things)
+
+	if(!parts_present)
+		world.log << "[name] lacks parts"
+	if(!tools_present)
+		world.log << "[name] lacks tools"
+
+	return parts_present && tools_present
+
 /datum/crafting_recipe/proc/check_parts(var/list/things)
 	if(!parts)
 		return 1
 	var/list/needs = parts.Copy()
 	for(var/atom/movable/A in things)
-		for(var/T in needs)
+		var/T
+		for(T in needs)
 			if(istype(A,T))
 				if(istype(A, /obj/item/stack))
 					var/obj/item/stack/S = A
@@ -111,10 +124,6 @@
 	if(!needs.len)
 		return 1
 	return 0
-
-/datum/crafting_recipe/proc/can_make(var/mob/user, var/turf/spot)
-	var/list/things = spot.contents + user.contents
-	return check_parts(things) && check_tools(things)
 
 /datum/crafting_recipe/proc/make(var/mob/user, var/turf/spot)
 	if(!can_make(user,spot))

@@ -5,7 +5,7 @@
 	result = list(/obj/structure/bed/chair = 1)
 	time = 30
 	base_chance = 100
-	category = "Structure"
+	category = "Structures"
 
 /datum/crafting_recipe/bed
 	name = "Bed"
@@ -14,7 +14,7 @@
 	result = list(/obj/structure/bed = 1)
 	time = 30
 	base_chance = 100
-	category = "Structure"
+	category = "Structures"
 
 /datum/crafting_recipe/bar_stool
 	name = "Bar Stool"
@@ -23,7 +23,7 @@
 	result = list(/obj/item/stool/bar  = 1)
 	time = 20
 	base_chance = 100
-	category = "Structure"
+	category = "Structures"
 
 /datum/crafting_recipe/table_frame
 	name = "Table Frame"
@@ -32,7 +32,7 @@
 	result = list(/obj/structure/table = 1)
 	time = 20
 	base_chance = 100
-	category = "Structure"
+	category = "Structures"
 
 /datum/crafting_recipe/Barricade
 	name = "Barricade"
@@ -41,4 +41,4 @@
 	result = list(/obj/structure/barricade = 1)
 	time = 60
 	base_chance = 100
-	category = "Structure"
+	category = "Structures"

@@ -18,7 +18,7 @@
 	result = list(/obj/item/bola = 1)
 	time = 30
 	base_chance = 100
-	category = "Item"
+	category = "Items"
 
 /datum/crafting_recipe/light_tube
 	name = "Light tube"
@@ -27,4 +27,4 @@
 	result = list(/obj/item/light/tube	 = 1)
 	time = 30
 	base_chance = 100
-	category = "Item"
+	category = "Items"
