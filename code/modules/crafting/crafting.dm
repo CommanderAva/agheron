@@ -125,7 +125,7 @@
 	if(!needs.len)
 		return 1
 	return 0
-//THIS PROC IS WORKING WITH RECIPE
+
 /datum/crafting_recipe/proc/make(var/mob/user, var/turf/spot)
 	if(!can_make(user,spot))
 		world.log << "[user] starts making something via craft menu but it doesnt work"
@@ -135,7 +135,7 @@
 	world.log << "[user] starts making something via craft menu"
 	if(do_after(user, time))
 		if(!can_make(user,spot))
-			user << "<span class='warning'>You are missing some things to make \a [name].</span>"
+			to_chat(user, "<span class='warning'>You are missing some things to make \a [name].</span>")
 			world.log << "[name] makes crafting error numero one"
 			return 0
 
@@ -146,8 +146,45 @@
 			for(T in result)
 				new T(user.loc)
 				world.log << "[user] makes [T] at [spot]"
-				user.message << "<span class='notice'>You make \a [name].</span>"
+				to_chat(user, "<span class='notice'>You make \a [name].</span>")
 
 		else
-			user.message << "<span class='warning'>You've failed to make \a [name].</span>"
+			to_chat(user, "<span class='warning'>You've failed to make \a [name].</span>")
 			world.log << "[user] makes crafting error numero tres"
+
+
+/*
+/datum/crafting_recipe/proc/crafting_process(var/list/things)
+	var/list/needs = parts.Copy()
+	var/list/to_del = list()
+	var/m_quality = 0
+	var/m_density = 0
+	var/m_sharpness = 0
+	var/
+	for(var/T in needs)
+		for(var/T in needs)
+		if(ispath(T, /obj/item/stack))
+			for(var/obj/item/stack/S in things)
+				if(needs[T] >= 0 && istype(S, T))
+					if(S.amount >= needs[T])
+						S.use(needs[T])
+						needs[T] = 0
+					else
+						needs[T] -= S.amount
+						things -= S
+						qdel(S)
+		else
+			for(var/atom/movable/A in things)
+				if(needs[T] && istype(A,T))
+					needs[T] -= 1
+					things -= A
+					to_del += A
+		if(needs[T] <= 0) //don't need any more of this type
+			continue
+
+	for(var/atom/A in to_del)
+		to_del -= A
+		qdel(A)
+
+	if(!needs.len)//start to craft from this point
+*/
