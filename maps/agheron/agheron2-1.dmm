@@ -32,10 +32,11 @@
 "F" = (/turf/simulated/floor/wood,/area/wilderness)
 "G" = (/obj/effect/landmark/map_data{height = 3},/turf/simulated/open,/area/wilderness)
 "H" = (/obj/item/material/sword,/turf/simulated/floor/grass,/area/wilderness)
-"I" = (/obj/item/material/sword/sabre,/turf/simulated/floor/grass,/area/wilderness)
+"I" = (/obj/item/reciever,/obj/item/stock,/obj/item/pipe,/obj/item/cylinder/one_slot,/obj/item/cylinder/four_slot,/obj/item/screwdriver,/obj/item/action,/turf/simulated/floor/grass,/area/wilderness)
 "J" = (/mob/living/carbon/human,/turf/simulated/floor/grass,/area/wilderness)
 "K" = (/mob/living/carbon/human/dummy,/turf/simulated/floor/grass,/area/wilderness)
 "L" = (/mob/living/carbon/human/child,/turf/simulated/floor/grass,/area/wilderness)
+"M" = (/obj/item/cylinder/four_slot,/turf/simulated/floor/grass,/area/wilderness)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -114,7 +115,7 @@ ffffffffffffffffjEEyffhfffffffffffffffffffffffffff
 fffffffffffffffBzjjjfHkfffffffffffffffffffffffffff
 fffffffffffffflmmmmnHfffgfffffffffffffffffffffffff
 fffffffffffffffmmompIfffffffffffffffffffffffffffff
-fffffffffffffffmqrCfffffffffffffffffffffffffffffff
+fffffffffffffffmqrCfMfffffffffffffffffffffffffffff
 fffffffffffffflmmmtugfffffffffffffffffffffffffffff
 fffffffffffffffJKLvfffwffffgffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffff

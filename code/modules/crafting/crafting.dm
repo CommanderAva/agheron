@@ -125,20 +125,29 @@
 	if(!needs.len)
 		return 1
 	return 0
-
+//THIS PROC IS WORKING WITH RECIPE
 /datum/crafting_recipe/proc/make(var/mob/user, var/turf/spot)
 	if(!can_make(user,spot))
+		world.log << "[user] starts making something via craft menu but it doesnt work"
 		return 0
+
 	user << "<span class='notice'>You start making \a [name].</span>"
+	world.log << "[user] starts making something via craft menu"
 	if(do_after(user, time))
 		if(!can_make(user,spot))
 			user << "<span class='warning'>You are missing some things to make \a [name].</span>"
+			world.log << "[name] makes crafting error numero one"
 			return 0
+
 		use_ingridients(spot.contents + user.contents)
-		if(prob(base_chance))  //Add whatever skill bonuses here
-			for(var/T in result)
-				for(var/i = 1 to result[T])
-					new T(spot)
-			user << "<span class='notice'>You make \a [name].</span>"
+		world.log << "[user] took items to craft"
+		if(prob(base_chance))  //Add whatever skill bonuses here. Code below is an atrocity, but it works
+			var/T = 0
+			for(T in result)
+				new T(user.loc)
+				world.log << "[user] makes [T] at [spot]"
+				user.message << "<span class='notice'>You make \a [name].</span>"
+
 		else
-			user << "<span class='warning'>You've failed to make \a [name].</span>"
+			user.message << "<span class='warning'>You've failed to make \a [name].</span>"
+			world.log << "[user] makes crafting error numero tres"

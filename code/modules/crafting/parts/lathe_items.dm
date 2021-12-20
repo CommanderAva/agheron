@@ -136,8 +136,9 @@
 /obj/item/stock
 	icon = 'icons/obj/crafting.dmi'
 	w_class = ITEM_SIZE_NORMAL
-	desc = "This is reciever."
+	desc = "This is a wepon stock."
 	icon_state = "stock"
+	name = "stock"
 
 /obj/item/gun/projectile/revolver/crafted
 	max_shells = 0
@@ -147,6 +148,8 @@
 	condition = 75
 	caliber = "38"
 	ammo_type = /obj/item/ammo_casing/c38
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "m-revolver"
 
 /obj/item/gun/projectile/revolver/crafted/one_chamber
 	max_shells = 1

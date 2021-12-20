@@ -17,6 +17,8 @@
 "q" = (/obj/structure/torchwall,/turf/simulated/wall/wood,/area/wilderness)
 "r" = (/obj/item/shovel,/obj/structure/torchwall{icon_state = "torchwall0"; dir = 4},/turf/simulated/floor/grass,/area/wilderness)
 "s" = (/obj/effect/landmark/map_data{height = 2},/turf/simulated/floor/grass,/area/wilderness)
+"t" = (/obj/item/reciever,/obj/item/stock,/obj/item/pipe,/obj/item/cylinder/one_slot,/obj/item/cylinder/four_slot,/obj/item/screwdriver,/turf/simulated/floor/grass,/area/wilderness)
+"u" = (/obj/item/cylinder/four_slot,/turf/simulated/floor/grass,/area/wilderness)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -41,8 +43,8 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaabaacaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaagddaaaeaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaamffffpaaaabaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaffhfiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaafjklaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaffhfitaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaafjklauaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaamfffqrbaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaannnnaaaoaaaabaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
